@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <!--Containts all data for the page-->
+  <div class="container">
+  	
+  	<!--Displays the currently selected image-->
+  	<div class="main-img">
+  		<img src="img/pic1.jpg" id="current">
+  	</div>
+
+  	<!--Containts all default pictures-->
+  	<div class="imgs" id="result">
+  		<img src="img/pic1.jpg">
+  		<img src="img/pic2.jpg"> 
+  		<img src="img/pic3.jpg"> 
+  		<img src="img/pic4.jpg"> 
+  		<img src="img/pic5.jpg"> 
+  		<img src="img/pic6.jpg">  
+  	</div>
+
+  	<!--Handles image uploads and delete-->
+  	<input type="file" id="imgUpload">
+  	<br> <br>
+  	<button id="upload">Upload</button>
+  	<button onclick="remove()" id="delete">Delete</button>
+  
+  </div>
+  
+</body>
+<script type="text/javascript" src="model.js"></script>`
+</html>
